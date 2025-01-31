@@ -7,7 +7,39 @@
 		<script type="module" src="./src/main.ts"></script>
 		<script type="module" src="./src/function.ts"></script>
 		<link rel="stylesheet" href="./src/style.css" />
-		<title>Vite + TS</title>
+		<title>NEWS</title>
 	</head>
-	<body></body>
+	<body>
+		<header>
+			<h1>NEWS</h1>
+			<nav class="bg-orange-50 flex justify-around">
+				<div>
+					<input
+						id="input-sprache"
+						type="text"
+						class="border-1 border-zinc-500"
+					/>
+					<button id="button-sprache">Suche</button>
+				</div>
+				<div>
+					<input
+						id="input-thema"
+						type="text"
+						class="border-1 border-zinc-500"
+					/>
+					<button id="button-thema">Suche</button>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<section id="output-news" class="grid grid-cols-4 bg-lime-50 gap-4">
+				<div>
+					<h2></h2>
+					<img src="" alt="" />
+					<p></p>
+					<button></button>
+				</div>
+			</section>
+		</main>
+	</body>
 </html>
