@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.1",
+    "ky": "^1.7.4",
     "tailwindcss": "^4.0.1"
   }
 }
